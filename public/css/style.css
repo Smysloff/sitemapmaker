@@ -1,0 +1,18 @@
+body {
+    letter-spacing: 1px;
+    font-family: Cambria, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.form__row {
+    margin-bottom: 1rem;
+}
+
+.form__textarea {
+    resize: none;
+    padding: .25rem .5rem;
+}
+
+input[type="submit"] {
+    margin-left: 1rem;
+}

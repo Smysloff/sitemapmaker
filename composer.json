@@ -1,0 +1,19 @@
+{
+    "name": "selby/sitemapmaker",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Smyslov",
+            "email": "smyslov@selby.su"
+        }
+    ],
+    "require": {
+        "sunra/php-simple-html-dom-parser": "1.5.2",
+        "swiftmailer/swiftmailer": "^6.0"
+    },
+    "autoload" : {
+        "psr-4" : {"selby\\" : "selby/"}
+    }
+}
