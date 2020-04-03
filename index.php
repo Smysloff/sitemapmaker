@@ -7,16 +7,15 @@ use selby\{
     SitemapMaker\SitemapMaker
 };
 
-
 $title = 'Sitemap maker';
 $outputData = '';
 
 $inputHandler = new InputHandler();
-
 if ($inputHandler->issetPost(['submit', 'type', 'inputData'])) {
     $htmlMap = SitemapMaker::newMap($inputHandler->post('type'));
     $outputData = $htmlMap->createMap($inputHandler->post('inputData'));
 }
+
 
 /**
  * передаем в шаблон:

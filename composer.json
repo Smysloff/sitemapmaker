@@ -10,8 +10,7 @@
         }
     ],
     "require": {
-        "sunra/php-simple-html-dom-parser": "1.5.2",
-        "swiftmailer/swiftmailer": "^6.0"
+        "paquettg/php-html-parser": "^2.2"
     },
     "autoload" : {
         "psr-4" : {"selby\\" : "selby/"}
